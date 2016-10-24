@@ -1,0 +1,23 @@
+$bg_color: #ffffff;
+$whiteFont: #ffffff;
+$bebasBold: Bebas-Bold;
+$sourceBold: SourceSansPro-Bold;
+$sourceRegular: SourceSansProRegular;
+$mainFont: 22px $sourceRegular;
+$mainFontColor: #0d0d0d;
+$yellowBgColor: #f5c631;
+
+@font-face {
+  font-family: Bebas-Bold;
+  src: url(../fonts/BebasBold.ttf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Bold;
+  src: url(../fonts/SourceSansProBold.ttf);
+}
+
+@font-face {
+  font-family: SourceSansProRegular;
+  src: url(../fonts/SourceSansProRegular.ttf);
+}

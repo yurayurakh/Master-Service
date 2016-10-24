@@ -1,0 +1,82 @@
+.header {
+    background-image: -webkit-linear-gradient(right, #f5c631 29%, #fff 33%, transparent 100%, transparent 100%);
+    background-image: -o-linear-gradient(right, #f5c631 29%, #fff 33%, transparent 100%, transparent 100%);
+    background-image: linear-gradient(to left, #f5c631 29%, #fff 33%, transparent 100%, transparent 100%);
+
+    min-height: 100px;
+    .logo {
+        padding-top: 20px;
+    }
+    .title {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .location {
+        min-height: 100px;
+        color: $whiteFont;
+        font-size: 16pt;
+        padding: 25px 0 0 30px;
+        background-color: #4a4a4a;
+        -moz-transform: skew(-20deg); /* Для Firefox */
+        -ms-transform: skew(-20deg); /* Для IE */
+        -webkit-transform: skew(-20deg); /* Для Safari, Chrome, iOS */
+        -o-transform: skew(-20deg); /* Для Opera */
+        transform: skew(-20deg);
+        p {
+            font-size: 14pt;
+            line-height: 20pt;
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+    .header-phone {
+        min-height: 100px;
+        color: $whiteFont;
+        font-size: 16pt;
+        padding: 20px 0 0 35px;
+        overflow: hidden;
+        background-color: $yellowBgColor;
+        -moz-transform: skew(-20deg); /* Для Firefox */
+        -ms-transform: skew(-20deg); /* Для IE */
+        -webkit-transform: skew(-20deg); /* Для Safari, Chrome, iOS */
+        -o-transform: skew(-20deg); /* Для Opera */
+        transform: skew(-20deg);
+        p {
+            font-size: 14pt;
+            line-height: 20pt;
+            img {
+                margin-top: 5px;
+                margin-right: 5px;
+            }
+        }
+        .btn {
+            margin-top: 5px;
+            padding: 5px 25px;
+            color: $whiteFont;
+            border-radius: 5px;
+            position: relative;
+            outline: none;
+            border: none;
+            background: url("../../img/header-btn-green2.png") repeat-x;
+            box-shadow: 0 -3px #0d870a inset;
+        }
+        .btn:hover {
+            outline: none;
+            border: none;
+            background: #2fb50d;
+        }
+        .btn:active {
+            top:1px;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background: #2fb50d;
+        }
+    }
+}
+header {
+    .container:after{
+    background-color: $yellowBgColor;
+    }
+}

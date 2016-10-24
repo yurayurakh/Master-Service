@@ -1,0 +1,134 @@
+.screen-title {
+    margin-top: 80px;
+    text-align: center;
+    span {
+        position: relative;
+        color: $whiteFont;
+        font: 45pt $bebasBold;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #535250;
+        .src-line {
+            display: inline-block;
+            position: absolute;
+            background-color: #f5c631;
+            height: 3px;
+            width: 160px;
+            top: 81px;
+            left: 38%;
+        }
+    }
+
+}
+.line-center {
+    text-align: center;
+    height: 130px;
+    background: url("../../img/vertical-line2.png") center top no-repeat;
+}
+.text-rotate {
+    -moz-transform: skew(20deg); /* Для Firefox */
+    -ms-transform: skew(20deg); /* Для IE */
+    -webkit-transform: skew(20deg); /* Для Safari, Chrome, iOS */
+    -o-transform: skew(20deg); /* Для Opera */
+    transform: skew(20deg);
+}
+.modal {
+    .modal-dialog {
+        width: 25%;
+    }
+    .modal-header {
+        text-align: center;
+        padding: 15px 15px 0 15px;
+        border: 0;
+        .close {
+            margin-top: -15px;
+            font-size: 25pt;
+            opacity: 1;
+            &:hover {
+                opacity: .5;
+            }
+        }
+    }
+    .modal-body {
+        margin-bottom: 30px;
+        padding: 0 5px;
+        .form-list-forms {
+            .form-list-title-input {
+                text-align: center;
+                margin-bottom: 20px;
+                p {
+                    color: #4a4a4a;
+                    font-size: 16pt;
+                    font-family: $sourceBold;
+                }
+                span {
+                    display: inline-block;
+                    width: 75%;
+                    color: #4a4a4a;
+                    font-size: 12pt;
+                }
+
+            }
+            .form-group {
+                margin-bottom: 20px;
+                text-align: center;
+                width: 100%;
+                input {
+                    color: #333;
+                    min-height: 40px;
+                    padding: 5px 10px;
+                    font-size: 12pt;
+                    width: 75%;
+                }
+            }
+            button {
+                margin: 0 auto;
+                display: block;
+                font-size: 16pt;
+                width: 75%;
+            }
+            .btn {
+                font-family: $sourceRegular;
+                padding: 10px 15px;
+                color: $whiteFont;
+                border-radius: 5px;
+                background: url("../../img/header-btn-green3.png") repeat-x;
+                box-shadow: 0 -4px #0d870a inset;
+                position: relative;
+                outline: none;
+                border: none;
+            }
+            .btn:hover {
+                outline: none;
+                border: none;
+                background: #2fb50d;
+            }
+            .btn:active {
+                top:1px;
+                border: none;
+                outline: none;
+                box-shadow: none;
+                background: #2fb50d;
+            }
+
+        }
+    }
+    .modal-footer {
+        display: none;
+    }
+}
+.success {
+    text-align: center;
+    background-color: #fff;
+    color: #0d870a;
+    width: 90%;
+    margin: 10px auto;
+}
+.success-modal {
+    display: none;
+}
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}

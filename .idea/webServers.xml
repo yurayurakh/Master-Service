@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ae4e77bb-75a0-4b53-887c-0ed2a65e51bc" name="Master-Service" url="http://37.140.192.149">
+        <fileTransfer host="37.140.192.149" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8b53ed8b-55dc-47fb-a2d6-3b81e2478a74" name="http://korsic.tmweb.ru/" url="http://korsic.tmweb.ru/">
+        <fileTransfer host="u2861212.cp.regruhosting.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

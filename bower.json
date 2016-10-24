@@ -1,0 +1,20 @@
+{
+  "name": "master-service",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Yurii Yurakh"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    
+  }
+}
